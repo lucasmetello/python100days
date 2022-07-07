@@ -4,7 +4,7 @@ print("Welcome to jokenpô")
 player = int(input("Type 0 for Rock, 1 for Paper, 2 for Scissors"))
 machine = random.randint(0,2)
 
-choice = ["--PEDRA--", "--PAPEL--", "--TESOURA--"]
+choice = ["--ROCK--", "--PAPER--", "--SCISSORS--"]
 
 print("You chose: ", choice[player])
 
