@@ -1,7 +1,7 @@
 import random
 
 print("Welcome to jokenpô")
-player = int(input("Type 0 for Rock, 1 for Paper, 2 for Scissors"))
+player = int(input("Type 0 for Rock, 1 for Paper, 2 for Scissors\n"))
 machine = random.randint(0,2)
 
 choice = ["--ROCK--", "--PAPER--", "--SCISSORS--"]
